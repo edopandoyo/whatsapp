@@ -19,7 +19,7 @@ app.use(express.urlencoded({
   extended: true
 }));
 app.use(fileUpload({
-  debug: true
+  debug: false
 }));
 
 const SESSION_FILE_PATH = './whatsapp-session.json';
